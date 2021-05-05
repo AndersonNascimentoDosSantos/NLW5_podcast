@@ -1,10 +1,11 @@
-import "../styles/global.scss";
-import styles from "../styles/app.module.scss";
+import React from 'react'
+import '../styles/global.scss'
+import styles from '../styles/app.module.scss'
 
-import { Header } from "../componentes/Header";
-import { Player } from "../componentes/Player";
+import { Header } from '../componentes/Header'
+import { Player } from '../componentes/Player'
 
-function MyApp({ Component, pageProps }) {
+function MyApp ({ Component, pageProps }) {
   return (
     <div className={styles.wrapper}>
       <main>
@@ -13,7 +14,7 @@ function MyApp({ Component, pageProps }) {
       </main>
       <Player />
     </div>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

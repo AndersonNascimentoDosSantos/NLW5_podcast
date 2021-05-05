@@ -1,7 +1,8 @@
-import Document, { Head, Html, Main, NextScript } from "next/document";
+import React from 'react'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
-  render() {
+  render () {
     return (
       <Html>
         <Head>
@@ -9,7 +10,8 @@ export default class MyDocument extends Document {
           <link
             href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@500;600&display=swap"
             rel="stylesheet"
-          />
+         />
+
         </Head>
 
         <body>
@@ -18,6 +20,6 @@ export default class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }

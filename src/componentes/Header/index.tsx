@@ -1,16 +1,29 @@
-import style from "./styles.module.scss";
-import format from "date-fns/format";
-import ptBR from "date-fns/locale/pt-BR";
+import React from 'react'
+import style from './styles.module.scss'
+import Link from 'next/link';
 export function Header() {
-  const currentDate = format(new Date(), "EEEEEE,d MMM", {
-    locale: ptBR,
-  });
+  
 
   return (
     <header className={style.headerContainer}>
-      <img src="/logo.svg" alt="podcastr" />
-      <p>O melhor pra voce ouvir,sempre</p>
-      <span>{currentDate}</span>
+      <Link href='/'>
+
+     <a>
+      <img src="/logo.svg" alt="podcastr"  />
+      </a>
+      </Link>
+      <p>PROATIVA AUTOMAÇÃO E SISTEMAS LTDA.</p>
+      <span>
+        
+        
+        <Link href='/contato'>
+        
+        <a>
+          CONTATO
+        </a></Link>
+      
+      
+      </span>
     </header>
-  );
+  )
 }

@@ -5,19 +5,87 @@
 }
 
 :root {
-  --white: #fff;
-  --gray-50: #f7f8fa;
-  --gray-100: #e6e8eb;
-  --gray-200: #afb2b1;
-  --gray-500: #808080;
-  --gray-800: #494d4b;
-  --green-500: #04d361;
-  --purple-300: #9f75ff;
-  --purple-400: #9164fa;
-  --purple-500: #8257e5;
-  --purple-800: #6f48c9;
+  --color-primary-100: '#CCF6FE';
+  --color-primary-200: '#9AE8FE';
+  --color-primary-300: '#67D3FC';
+  --color-primary-400: '#41BCFA';
+  --color-primary-500: '#0497F7';
+  --color-primary-600: '#0275D4';
+  --color-primary-700: '#0257B1';
+  --color-primary-800: '#013D8F';
+  --color-primary-900: '#002C76';
+  --color-primary-transparent-100: rgba(4, 151, 247, 0.08);
+  --color-primary-transparent-200: rgba(4, 151, 247, 0.16);
+  --color-primary-transparent-300: rgba(4, 151, 247, 0.24);
+  --color-primary-transparent-400: rgba(4, 151, 247, 0.32);
+  --color-primary-transparent-500: rgba(4, 151, 247, 0.4);
+  --color-primary-transparent-600: rgba(4, 151, 247, 0.48);
+  --color-success-100: '#E9FCD7';
+  --color-success-200: '#CEFAAF';
+  --color-success-300: '#A8F085';
+  --color-success-400: '#84E163';
+  --color-success-500: '#51CE35';
+  --color-success-600: '#35B126';
+  --color-success-700: '#1E941A';
+  --color-success-800: '#107715';
+  --color-success-900: '#0A6214';
+  --color-success-transparent-100: rgba(81, 206, 53, 0.08);
+  --color-success-transparent-200: rgba(81, 206, 53, 0.16);
+  --color-success-transparent-300: rgba(81, 206, 53, 0.24);
+  --color-success-transparent-400: rgba(81, 206, 53, 0.32);
+  --color-success-transparent-500: rgba(81, 206, 53, 0.4);
+  --color-success-transparent-600: rgba(81, 206, 53, 0.48);
+  --color-info-100: '#E2E8FF';
+  --color-info-200: '#C6D1FF';
+  --color-info-300: '#AAB9FF';
+  --color-info-400: '#95A6FF';
+  --color-info-500: '#7287FF';
+  --color-info-600: '#5365DB';
+  --color-info-700: '#3948B7';
+  --color-info-800: '#242F93';
+  --color-info-900: '#151E7A';
+  --color-info-transparent-100: rgba(114, 135, 255, 0.08);
+  --color-info-transparent-200: rgba(114, 135, 255, 0.16);
+  --color-info-transparent-300: rgba(114, 135, 255, 0.24);
+  --color-info-transparent-400: rgba(114, 135, 255, 0.32);
+  --color-info-transparent-500: rgba(114, 135, 255, 0.4);
+  --color-info-transparent-600: rgba(114, 135, 255, 0.48);
+  --color-warning-100: '#FFF5CC';
+  --color-warning-200: '#FFE899';
+  --color-warning-300: '#FFD866';
+  --color-warning-400: '#FFC83F';
+  --color-warning-500: '#FFAE00';
+  --color-warning-600: '#DB8E00';
+  --color-warning-700: '#B77100';
+  --color-warning-800: '#935600';
+  --color-warning-900: '#7A4300';
+  --color-warning-transparent-100: rgba(255, 174, 0, 0.08);
+  --color-warning-transparent-200: rgba(255, 174, 0, 0.16);
+  --color-warning-transparent-300: rgba(255, 174, 0, 0.24);
+  --color-warning-transparent-400: rgba(255, 174, 0, 0.32);
+  --color-warning-transparent-500: rgba(255, 174, 0, 0.4);
+  --color-warning-transparent-600: rgba(255, 174, 0, 0.48);
+  --color-danger-100: '#FFE1D6';
+  --color-danger-200: '#FFBDAE';
+  --color-danger-300: '#FF9185';
+  --color-danger-400: '#FF6867';
+  --color-danger-500: '#FF3546';
+  --color-danger-600: '#DB2646';
+  --color-danger-700: '#B71A44';
+  --color-danger-800: '#93103F';
+  --color-danger-900: '#7A0A3C';
+  --color-danger-transparent-100: rgba(255, 53, 70, 0.08);
+  --color-danger-transparent-200: rgba(255, 53, 70, 0.16);
+  --color-danger-transparent-300: rgba(255, 53, 70, 0.24);
+  --color-danger-transparent-400: rgba(255, 53, 70, 0.32);
+  --color-danger-transparent-500: rgba(255, 53, 70, 0.4);
+  --color-danger-transparent-600: rgba(255, 53, 70, 0.48);
 }
 
+@font-face {
+  font-family: Boombox2;
+  src: url('../fonts/boombox2.ttf');
+}
 @media (max-width: 1080px) {
   html {
     font-size: 93.75%;
@@ -31,7 +99,7 @@
 }
 
 body {
-  background: var(--gray-50);
+  background: var(--color-primary-100);
   // max-width:1300px
 }
 
@@ -39,8 +107,8 @@ body,
 input,
 textarea,
 button {
-  font: 500 1rem Inter, sans-serif;
-  color: var(--gray-500);
+  font: 200 1rem Boombox2, sans-serif;
+  color: var(--color-primary-500);
 }
 
 h1,
@@ -49,9 +117,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600;
-  font-family: Lexend, sans-serif;
-  color: var(--gray-800);
+  font-weight: 500;
+  font-family: Boombox2, sans-serif;
+  color: var(--color-info-500);
 }
 
 h1 {

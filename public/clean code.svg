@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   sodipodi:docname="clean code.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.61355005"
+     inkscape:cx="314.56277"
+     inkscape:cy="296.63432"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="659.66318"
+       y="481.9147"
+       width="673.69065"
+       height="451.71735"
+       id="rect16105" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter37554"
+       x="-0.014549242"
+       y="-0.14658362"
+       width="1.0290985"
+       height="1.2931672">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.78779152"
+         id="feGaussianBlur37556" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter37558"
+       x="-0.021644192"
+       y="-0.15316201"
+       width="1.0432884"
+       height="1.306324">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.78779152"
+         id="feGaussianBlur37560" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#006aff;stroke-width:1.565;stroke-opacity:1"
+       id="rect31"
+       width="207.97108"
+       height="63.57785"
+       x="2.9875846"
+       y="24.186659"
+       inkscape:export-filename="/home/anderson/Pictures/cleancodeheader.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.9333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#07070a;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter37558);opacity:0.54237697"
+       x="58.554474"
+       y="55.485733"
+       id="text37224"
+       inkscape:export-filename="/home/anderson/Pictures/cleancodeheader.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan37222"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Chilanka;-inkscape-font-specification:Chilanka;stroke-width:0.264583;fill:#07070a;fill-opacity:1"
+         x="58.554474"
+         y="55.485733">Clean Code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.9333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0d28de;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="58.554474"
+       y="55.485733"
+       id="text2719"
+       inkscape:export-filename="/home/anderson/Pictures/cleancodeheader.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan2717"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:Chilanka;-inkscape-font-specification:Chilanka;stroke-width:0.264583;fill:#0d28de;fill-opacity:1"
+         x="58.554474"
+         y="55.485733">Clean Code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#07070a;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter37554);opacity:0.54237697"
+       x="40.48106"
+       y="70.259148"
+       id="text37228"
+       inkscape:export-filename="/home/anderson/Pictures/cleancodeheader.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan37226"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Chilanka;-inkscape-font-specification:Chilanka;stroke-width:0.264583;fill:#07070a;fill-opacity:1"
+         x="40.48106"
+         y="70.259148">JavaScript/TypeScript</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0d28de;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="40.48106"
+       y="70.259148"
+       id="text4329"
+       inkscape:export-filename="/home/anderson/Pictures/cleancodeheader.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan4327"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Chilanka;-inkscape-font-specification:Chilanka;stroke-width:0.264583;fill:#0d28de;fill-opacity:1"
+         x="40.48106"
+         y="70.259148">JavaScript/TypeScript</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text16103"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect16105)" />
+  </g>
+</svg>

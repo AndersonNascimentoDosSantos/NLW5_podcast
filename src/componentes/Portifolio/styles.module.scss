@@ -13,10 +13,13 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    img{
+      width: 2rem;
+    }
   }
 
   strong {
-    font-family: Lexend, sans-serif;
+    font-family: Boombox2, sans-serif;
     font-weight: 600;
   }
 
@@ -34,7 +37,7 @@
   height: 20rem;
   border: 1.5px dashed var(--purple-300);
   border-radius: 1.5rem;
-  background: linear-gradient(143.8deg, rgba(145, 100, 250, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(143.8deg, rgba(0, 26, 255, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
   padding: 2rem;
   text-align: center;
   display: flex;

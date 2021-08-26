@@ -3,16 +3,16 @@ import '../styles/global.scss'
 import styles from '../styles/app.module.scss'
 
 import { Header } from '../componentes/Header'
-import { Player } from '../componentes/Player'
+import { Portifolio } from '../componentes/Portifolio'
 
-function MyApp ({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
     <div className={styles.wrapper}>
       <main>
         <Header />
         <Component {...pageProps} />
       </main>
-      <Player />
+      <Portifolio />
     </div>
   )
 }
